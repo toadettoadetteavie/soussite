@@ -1,0 +1,59 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #1a1a1a; /* Fond sombre */
+    color: #fff; /* Texte blanc */
+}
+
+#warning-container {
+    text-align: center;
+}
+
+h1 {
+    color: #ff3333; /* Couleur de texte rouge pour le titre */
+    font-size: 2em; /* Taille de police plus grande */
+    margin-bottom: 20px;
+}
+
+#password-container {
+    margin-bottom: 20px;
+}
+
+label {
+    margin-right: 10px;
+    color: #fff; /* Texte blanc pour le label */
+}
+
+input {
+    padding: 5px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #ff3333; /* Bouton rouge */
+    color: #fff; /* Texte blanc pour le bouton */
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background-color: #cc0000; /* Légère variation de couleur au survol */
+}
+
+img {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+p {
+    color: #ff3333; /* Texte rouge pour les messages d'erreur */
+    font-weight: bold; /* Texte en gras */
+}
+
